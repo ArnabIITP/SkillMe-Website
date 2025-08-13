@@ -1,0 +1,238 @@
+
+
+
+body {
+  background: #f7f8fa;
+  margin: 0;
+  font-family: 'Segoe UI', 'Roboto', Arial, sans-serif;
+  color: #232323;
+}
+
+.skillme-light-bg {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.skillme-navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.2rem 2.5rem 1.2rem 2.5rem;
+  background: #fff;
+  box-shadow: 0 2px 8px 0 #e6e6e6;
+}
+.skillme-navbar-brand {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+}
+.skillme-logo-navbar {
+  width: 38px;
+  height: 38px;
+  object-fit: contain;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px 0 #e6e6e6;
+}
+.skillme-navbar-title {
+  font-size: 1.35rem;
+  font-weight: 700;
+  color: #7c3aed;
+  letter-spacing: 1px;
+}
+.skillme-navbar-links a {
+  color: #232323;
+  text-decoration: none;
+  margin-left: 2rem;
+  font-size: 1.05rem;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+.skillme-navbar-links a:hover {
+  color: #7c3aed;
+}
+
+.skillme-hero {
+  text-align: center;
+  margin: 3.5rem 0 2.5rem 0;
+}
+.skillme-title-main-light {
+  font-size: 3rem;
+  font-weight: 800;
+  color: #7c3aed;
+  margin-bottom: 0.7rem;
+  letter-spacing: 1px;
+}
+.skillme-hero-desc {
+  font-size: 1.25rem;
+  color: #444;
+  margin-bottom: 0.5rem;
+}
+
+.skillme-main-content-light {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 2.5rem;
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto 2rem auto;
+  padding: 0 2rem;
+}
+
+.skillme-waitlist-area-light, .skillme-details-area-light {
+  background: #fff;
+  border-radius: 1.5rem;
+  box-shadow: 0 4px 24px 0 #e6e6e6;
+  padding: 2.2rem 2rem 1.5rem 2rem;
+  color: #232323;
+  flex: 1 1 350px;
+  min-width: 320px;
+  max-width: 420px;
+}
+.skillme-waitlist-area-light {
+  margin-bottom: 1.5rem;
+}
+.skillme-waitlist-area-light h2 {
+  color: #7c3aed;
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+.skillme-waitlist-area-light p {
+  color: #444;
+  margin-bottom: 1.2rem;
+}
+.waitlist-form-light {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+  align-items: center;
+  justify-content: center;
+}
+.waitlist-input-light {
+  padding: 0.75rem 1rem;
+  border-radius: 1.5rem;
+  border: 1px solid #e0e0e0;
+  width: 100%;
+  max-width: 220px;
+  font-size: 1rem;
+  outline: none;
+  background: #f7f8fa;
+  color: #232323;
+  box-shadow: 0 2px 8px 0 #e6e6e6;
+  transition: box-shadow 0.2s, border 0.2s;
+}
+.waitlist-input-light:focus {
+  box-shadow: 0 0 0 2px #7c3aed44;
+  border: 1.5px solid #7c3aed;
+}
+.waitlist-button-light {
+  padding: 0.75rem 1.5rem;
+  border-radius: 1.5rem;
+  border: none;
+  background: linear-gradient(90deg, #7c3aed 60%, #a259ff 100%);
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 2px 8px 0 #e6e6e6;
+  transition: background 0.2s, box-shadow 0.2s;
+}
+.waitlist-button-light:hover {
+  background: linear-gradient(90deg, #a259ff 0%, #7c3aed 100%);
+  box-shadow: 0 4px 16px 0 #a259ff44;
+}
+.waitlist-error-light {
+  color: #d32f2f;
+  font-size: 0.95rem;
+  margin-left: 1rem;
+}
+.waitlist-success-light {
+  color: #388e3c;
+  font-size: 1.1rem;
+  background: #f1f8e9;
+  border-radius: 1rem;
+  padding: 1rem 0.5rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 2px 8px 0 #e6e6e6;
+}
+.skillme-details-area-light {
+  margin-bottom: 1.5rem;
+}
+.skillme-details-area-light h2 {
+  color: #7c3aed;
+  font-size: 1.3rem;
+  margin-bottom: 0.7rem;
+}
+.skillme-details-area-light ul {
+  list-style: disc inside;
+  padding-left: 0;
+  margin: 0;
+  text-align: left;
+}
+.skillme-details-area-light li {
+  margin-bottom: 0.5rem;
+  font-size: 1.05rem;
+}
+.skillme-footer-light {
+  margin-top: 2rem;
+  color: #888;
+  font-size: 1rem;
+  letter-spacing: 0.5px;
+  text-align: center;
+  padding-bottom: 1.5rem;
+  background: #fff;
+  border-top: 1px solid #e6e6e6;
+}
+.footer-links {
+  margin-bottom: 0.5rem;
+}
+.footer-links a {
+  color: #7c3aed;
+  text-decoration: none;
+  margin: 0 1.2rem;
+  font-weight: 500;
+  font-size: 1.05rem;
+  transition: color 0.2s;
+}
+.footer-links a:hover {
+  color: #a259ff;
+}
+
+@media (max-width: 900px) {
+  .skillme-main-content-light {
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: center;
+    padding: 0 0.5rem;
+  }
+  .skillme-waitlist-area-light, .skillme-details-area-light {
+    max-width: 98vw;
+    min-width: 0;
+    width: 100%;
+  }
+}
+
+@media (max-width: 600px) {
+  .skillme-navbar {
+    flex-direction: column;
+    gap: 0.7rem;
+    padding: 1.2rem 0.7rem 1.2rem 0.7rem;
+  }
+  .skillme-hero {
+    margin: 2rem 0 1.2rem 0;
+  }
+  .skillme-title-main-light {
+    font-size: 2rem;
+  }
+  .skillme-main-content-light {
+    padding: 0 0.2rem;
+  }
+  .skillme-waitlist-area-light, .skillme-details-area-light {
+    padding: 1rem 0.5rem 0.7rem 0.5rem;
+  }
+  .footer-links a {
+    margin: 0 0.5rem;
+  }
+}
